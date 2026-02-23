@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.5.2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Department" vertex="1">
+          <mxGeometry height="57" width="113" x="250" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-2" parent="iaNyoSD6yvTyn3t03xXi-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="113" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="EmploymentType" vertex="1">
+          <mxGeometry height="57" width="153" x="413" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-4" parent="iaNyoSD6yvTyn3t03xXi-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="153" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-5" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Employee" vertex="1">
+          <mxGeometry height="57" width="97" x="350" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-6" parent="iaNyoSD6yvTyn3t03xXi-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="97" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-7" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="EmployeeService" vertex="1">
+          <mxGeometry height="57" width="152" x="322" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-8" parent="iaNyoSD6yvTyn3t03xXi-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="19" width="152" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iaNyoSD6yvTyn3t03xXi-5" style="curved=1;startArrow=diamondThin;startSize=14;startFill=0;endArrow=none;exitX=0;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="iaNyoSD6yvTyn3t03xXi-1" value="Aggregation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-10" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iaNyoSD6yvTyn3t03xXi-5" style="curved=1;startArrow=diamondThin;startSize=14;startFill=0;endArrow=none;exitX=1;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="iaNyoSD6yvTyn3t03xXi-3" value="Aggregation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iaNyoSD6yvTyn3t03xXi-11" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="iaNyoSD6yvTyn3t03xXi-7" style="curved=1;dashed=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="iaNyoSD6yvTyn3t03xXi-5" value="Dependency">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
