@@ -3,12 +3,12 @@ package id.ac.polban.employee.model;
 public class Employee {
     private int id;
     private String name;
-    // Relasi Aggregation: Employee memiliki Department dan EmploymentType
+
     private Department department; 
     private EmploymentType type;
     private double salary;
     
-    // Static field: Milik class, bukan objek. Berbagi nilai di semua instansiasi.
+
     private static int totalEmployees = 0; 
 
     public Employee(int id, String name, Department department, EmploymentType type, double salary) {
